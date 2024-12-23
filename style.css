@@ -1,0 +1,100 @@
+     header,footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+        }
+
+        .nav{
+            display: flex;
+            gap: 30px;
+        }
+
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            transition: 2s;
+        }
+        a:hover{
+            color: black;
+        }
+        h1,p,h2,img,.skills{
+            margin-left: 600px;
+        }
+        body{
+            margin: 0;
+        }
+        img{
+            width: 400px;
+            transition: 2s;
+        }
+        img:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .nav{
+            display: flex;
+            gap: 30px;
+        }
+
+        ul{
+            list-style: none;
+        }
+        a{
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            transition: 2s;
+        }
+        a:hover{
+            color: black;
+        }
+        .list{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            font-size: 25px;
+            font-weight: 900;
+        }
+        body{
+            margin: 0;
+        }
+        img:hover{
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+        img{
+            transition: 2s;
+        }
+        .list{
+            margin-bottom: 10px ;
+            display: flex ;
+            justify-content: center ;
+            align-items: center ;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 18.75px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            margin-top: 30px ;
+        }
+        .listr {
+            background-image: url("alondra-lucia--_os35-xQjc-unsplash.jpg");
+            background-size: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
